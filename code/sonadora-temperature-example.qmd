@@ -115,6 +115,7 @@ plot(temperature_model)
 ```{r}
 #| label: temperature-model-summary
 
+# summary code for temp model
 summary(temperature_model)
 
 ```
@@ -146,7 +147,7 @@ ggpredict(
 ```{r}
 #| label: temperature-mode-prediction-visualization
 
-# base layer
+# base layer: gg plot
 ggplot(data = sonadora_sum, 
        aes(x = elevation_m,
            y = mean_temp_c)) +
